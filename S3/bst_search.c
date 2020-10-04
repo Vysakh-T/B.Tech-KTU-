@@ -54,7 +54,7 @@ void main()
 	char ch='y';
 	ptr = (node*)malloc(sizeof(node));
 	root = (node*)malloc(sizeof(node));
-        printf("\nEnter the root element of the binary search tree: \t");
+        printf("\nEnter the root element of the binary search tree here: \t");
         scanf("%d",&r);
 	buildtree(root,r);
         
