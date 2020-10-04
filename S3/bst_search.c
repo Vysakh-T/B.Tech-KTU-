@@ -26,7 +26,7 @@ void buildtree(node *new,int d)
 	new->lc=(node*)malloc(sizeof(node));
 	new->rc=(node*)malloc(sizeof(node));	
 	new->data=d;
-        printf("\nDoes %d have a left child?(Y/N)?:\t",d);
+        printf("\nDoes %d have a left child or not?(Y/N)?:\t",d);
         scanf("%s",&c);
         if(c=='y'||c=='Y')
         {
